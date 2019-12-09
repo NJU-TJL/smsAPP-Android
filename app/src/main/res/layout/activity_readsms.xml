@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadsmsActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="（显示选中类别的短信）"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tempbtn" />
+
+    <Button
+        android:id="@+id/tempbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="goShow"
+        android:text="展示短信"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="垃圾短信" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="服务通知类短信" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="网购短信" />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="验证码短信" />
+
+
+        <RadioButton
+            android:id="@+id/radio6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="诈骗短信" />
+
+        <RadioButton
+            android:id="@+id/radio7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支入支出短信" />
+
+        <RadioButton
+            android:id="@+id/radio8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="其他短信" />
+
+    </RadioGroup>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
