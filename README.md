@@ -60,7 +60,7 @@
 
 ## 部分功能展示
 
-（注：如果图片加载失败，可在[ImageMD文件夹](https://github.com/NJU-TJL/smsAPP-Android/tree/master/ImageMD)中下载后查看）
+（注：如果图片加载失败，可能是网络较慢的原因，可耐心等待一会儿；或者可以在[ImageMD文件夹](https://github.com/NJU-TJL/smsAPP-Android/tree/master/ImageMD)中下载后查看）
 
 主界面及侧边栏
 
