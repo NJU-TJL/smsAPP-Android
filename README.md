@@ -6,24 +6,26 @@
 
 （APP客户端部分）  
 
-
 **安装包（APK文件）**
 [下载地址](https://github.com/NJU-TJL/smsAPP-Android/releases)
 
-
 **关于源代码的使用**
+
+Android客户端的部分功能需要与服务器端程序通信，请先部署服务器端程序：[地址](https://github.com/NJU-TJL/smsAPP-Server)
 
 编译生成前，请先搜索"TODO-FIRST"（[MainActivity.java](https://github.com/NJU-TJL/smsAPP-Android/blob/master/app/src/main/java/com/example/jinlin/smsappv1/MainActivity.java) 和 [FeedbackActivity.java](https://github.com/NJU-TJL/smsAPP-Android/blob/master/app/src/main/java/com/example/jinlin/smsappv1/FeedbackActivity.java) 文件中），按注释提示信息，填入必要信息（服务器IP地址等）。
 
-注：[源代码](https://github.com/NJU-TJL/smsAPP-Android/tree/master/app/src/main/java/com/example/jinlin/smsappv1)中，出于安全考虑，已去除原本使用的服务器公网IP地址，以及用于接收反馈信息的我的个人邮箱。所以，如果需要复用代码，请按注释填入相关信息，否则部分相关功能无法正常使用。如有任何问题，欢迎[联系我](mailto:TangJinlin@smail.nju.edu.cn)）
+注：[源代码](https://github.com/NJU-TJL/smsAPP-Android/tree/master/app/src/main/java/com/example/jinlin/smsappv1)中，出于安全考虑，已去除原本使用的服务器公网IP地址，以及用于接收反馈信息的我的个人邮箱。所以，如果需要复用代码，请按注释填入相关信息，否则部分相关功能无法正常使用。如有任何问题，欢迎[联系我](mailto:TangJinlin@smail.nju.edu.cn)
 
+****
 
+**Copyright © 2020 NJU-TJL**  
+
+**[开放源代码许可](https://github.com/NJU-TJL/smsAPP-Android/blob/master/LICENSE)**
 
 **转载请注明原作者：https://github.com/NJU-TJL/smsAPP-Android**  
 
-（使用Apache 2.0开源协议）
-
-
+****
 
 ## 项目信息
 
