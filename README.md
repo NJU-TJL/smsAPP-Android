@@ -51,7 +51,7 @@ Android客户端的部分功能需要与服务器端程序通信，请先部署�
 
 ## 部分功能展示
 
-（若**图片加载失败**，可通过CSDN博客查看：https://blog.csdn.net/Kingsman_T/article/details/103880369 或者 同步的码云仓库：https://gitee.com/NJU-TJL/smsAPP-Android）
+PS：若**图片加载失败**，可通过CSDN博客查看：https://blog.csdn.net/Kingsman_T/article/details/103880369 或者 同步的码云仓库：https://gitee.com/NJU-TJL/smsAPP-Android 
 
 主界面及侧边栏
 
